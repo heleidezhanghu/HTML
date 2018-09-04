@@ -12,9 +12,19 @@
     2. <a href="css/css_basic/css_basic.md">css选择器</a>
     3. <a href="css/css_basic/css_high_order_selector.md">css高级选择器</a>
     4. <a href="css/css_basic/txt_and_font.md">css字体</a>
-    5. <a href="css/css_basic/home_work.md">课后作业</a>
 
-4. 第四天 css 盒模型
+
+
+4. 第四天 css 盒模型排版
+
+    1. <a href="css/css_layout/css_box.md">盒模型</a>
+    2. <a href="css/css_layout/css_box.md">flex布局</a>
+
+
+
+5. 3-4天 css作业
+    1. <a href="css/css_basic/home_work.md">课后作业</a>
+
 
 5. 第五天 js 基础语法
 
