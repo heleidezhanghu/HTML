@@ -219,6 +219,8 @@ form标签属性:
 1. action 提交到哪里去(点击表单之后)
 2. method 定义提交的方法 get post等方法
 3. input标签就是我们常见的输入框里面的内容
+4. placeholder 提示我们输入文字
+5. required 必须输入
 
 
 	```
@@ -228,7 +230,7 @@ form标签属性:
 	    method  表单提交数据时的方式 ，常用的有get 和 post
 	-->
 	<form action="tables.html" method="get">
-	    <label>账户</label><input type="text" name="test">
+	    <label>账户</label><input type="text" name="test" placeholder=“输入” required>
 	    <input type="submit" value="submit">
     </form>
 	```
