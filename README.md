@@ -17,7 +17,7 @@
 
            html js css等 教学完成后三日内提交
 
-           
+
 
 ## 课程安排笔记和作业
 
@@ -54,10 +54,12 @@
 6. 第五天 js 基础语法
 
     1. <a href="js/js_basic/js_basic.md">js基础<a>
-    2.
-    3. <a href="js/home_work.md">js练习题<a>
+    2. <a href="js/js_basic/js_construction.md">js结构<a>
+    3. <a href="js/js_basic/js_arr.md">js数组<a>
+    4. <a href="js/js_basic/js_execpiton.md">异常处理<a>
+    4. <a href="js/home_work.md">js练习题<a>
 
-6. 第六天 js 原型和原型链
+6. 第六天 js 函数对象 原型和原型链
 
 7. 第七天 js dom bom
 
