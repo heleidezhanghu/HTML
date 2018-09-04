@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+
+    //99乘法表
+// let str = '';
+// for(let i = 1; i <= 9; i++) {
+//     str = '';
+//     for (let j = 1; j <= i; j++) {
+//         str += j + '*' + i + "=" +i*j +'\n';
+//     }
+//     document.write(str);
+//     document.write('<br>');
+// }
+
+//星星1
+
+
+// 示例1
+/*
+   *       i = 1   space = 3  star = 1
+  ***      i = 2   space = 2  star = 3
+ *****     i = 3   space = 1  star = 5
+*******    i = 4   space = 0  star = 7
+row = 4
+space = row - i;   star = 2 * i - 1
+*/
+
+// let row = 4;
+// let spaces, stars, str = '';
+// for(let i = 1; i <= row; i++) {
+//     spaces = row - i;
+//     stars  = 2 * i - 1;
+//     // 打印空格
+//     for(let j = 1; j <= spaces; j++) {
+//         str += '&nbsp';
+//     }
+//     // 打印星星
+//     for(let k = 1; k <= stars; k++) {
+//         str += '*';
+//     }
+//     str += '<br>';
+// }
+// document.write(str);
+
+
+//星星2
+
+// 示例2
+/*
+   *      i = 1  space = 2 4  star = 1
+  ***     i = 2  space = 1 2  star = 3
+ *****    i = 3  space = 0 0  star = 5
+  ***     i = 4  space = 1 2  star = 3
+   *      i = 5  space = 2 4  star = 1
+
+ 提示：
+ Math.ceil() 向上取整
+ Math.abs()  取绝对值
+
+ row = 5
+ space = Math.abs(Math.ceil(row/2) - i);
+ star  = row - 2 * space
+*/
+
+// let row = 5;
+// let spaces, stars, str = ``;
+// for(let i = 1; i <= row; i++) {
+//     spaces = Math.abs(Math.ceil(row/2) - i);
+//     stars  = row - 2 * spaces;
+//     // 打印空格
+//     for(let j = 1; j <= spaces; j++) {
+//         str += '&nbsp';
+//     }
+//     // 打印星星
+//     for(let k = 1; k <= stars; k++) {
+//         str += `*`;
+//     }
+//     str += `<br>`;
+// }
+// document.write(str);
+
+
+
+// let row = 9;
+// let spaces, stars, str = ``;
+// for(let i = 1; i <= row; i++) {
+//     spaces = Math.abs(Math.ceil(row/2) - i);
+//     stars  = row - 2 * spaces;
+//
+//     // 打印空格
+//     for(let j = 1; j <= spaces; j++) {
+//         str += '&nbsp';
+//     }
+//     // 打印星星
+//     for(let k = 1; k <= stars; k++) {
+//
+//         if(k==1 || k == stars){
+//             str += '*';
+//         }else{
+//             str += '&nbsp';
+//         }
+//
+//     }
+//     str += `<br>`;
+// }
+// document.write(str);
+
+</script>
+
+</body>
+</html>
