@@ -26,7 +26,11 @@
     1. <a href="css/css_basic/home_work.md">课后作业</a>
 
 
-5. 第五天 js 基础语法
+6. 第五天 js 基础语法
+
+    1. <a href="js/js_basic/js_basic.md">js基础<a>
+    2.
+    3. <a href="js/home_work.md">js练习题<a>
 
 6. 第六天 js 原型和原型链
 
@@ -36,4 +40,4 @@
 
 9. 第九天 bootstrap
 
-10. 第十天 考试
+10. 第十天 总结
