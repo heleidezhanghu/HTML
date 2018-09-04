@@ -1,10 +1,35 @@
 # 睿峰前端教学
 
+
+## 作业
+
+###  课后作业提交方式
+
+       请制作一个html页面作为作业
+
+       请使用邮件提交 1210999688@qq.com
+
+       提交格式:
+
+           标题: pxxxx - $姓名 - html_(js|css|...)课程作业
+
+       作业提交时间:
+
+           html js css等 教学完成后三日内提交
+
+           
+
+## 课程安排笔记和作业
+
 1. 第一天 html 
     1. <a href="html/html_basic/html_baisc.md">html简介</a>
     2. <a href="html/html_basic/html_element.md">html标签</a>
 2. 第二天 html 
     1. <a href="html/forms_and_tables/forms_and_tables.md">table和表单</a>
+
+3. 1-2 天作业
+    1. <a href="html/forms_and_tables/html_home_works.md">作业</a>
+
 
 3. 第三天 css 基础
 

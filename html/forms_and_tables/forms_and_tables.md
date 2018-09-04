@@ -377,16 +377,7 @@ type="checkbox" 定义了复选框. 用户需要从若干给定的选择中选�
 |text/plain|空格转换为 "+" 加号，但不对特殊字符编码。|
 
 
-#### 课后练习
 
-
-
-1. ![](../../pics/html/forms_and_tables/3.png)
-
-
-2. ![](../../pics/html/forms_and_tables/4.png)
-
-3. ![](../../pics/html/forms_and_tables/5.png)
 
 
 
