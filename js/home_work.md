@@ -9,4 +9,4 @@
     标题: pxxxx - $姓名 - html_js课程作业
 
 
-<a href="basic_home_work.html">1.js基础练习<a>
+<a href="js_basic/basic_home_work.html">1.js基础练习<a>
