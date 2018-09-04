@@ -27,7 +27,7 @@
 2. 第二天 html 
     1. <a href="html/forms_and_tables/forms_and_tables.md">table和表单</a>
 
-3. 1-2 天作业
+3. 第一天-第二天 天作业
     1. <a href="html/forms_and_tables/html_home_works.md">作业</a>
 
 
@@ -47,7 +47,7 @@
 
 
 
-5. 3-4天 css作业
+5. 第三天-第四天天 css作业
     1. <a href="css/css_basic/home_work.md">课后作业</a>
 
 
@@ -57,11 +57,19 @@
     2. <a href="js/js_basic/js_construction.md">js结构<a>
     3. <a href="js/js_basic/js_arr.md">js数组<a>
     4. <a href="js/js_basic/js_execpiton.md">异常处理<a>
-    4. <a href="js/home_work.md">js练习题<a>
+
 
 6. 第六天 js 函数对象 原型和原型链
 
+    1. <a href="js/js_basic/js_basic.md">js函数<a>
+    2. <a href="js/js_arr_functions_obj/js_obj.md">js对象<a>
+    3. <a href="js/js_arr_functions_obj/js_prototype.md">原型链<a>
+
 7. 第七天 js dom bom
+
+8. 第五天-第七天作业
+
+    <a href="js/home_work.md">作业</a>
 
 8. 第八天 JQuery
 
