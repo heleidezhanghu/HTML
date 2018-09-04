@@ -355,16 +355,21 @@ br 元素是一个空的 HTML 元素。由于关闭标签没有任何意义，�
 	``` 		<iframe src="URL"></iframe>
 	```
 	
-该URL指向不同的网页。
-Iframe - 设置高度与宽度
-height 和 width 属性用来定义iframe标签的高度与宽度。
-属性默认以像素为单位, 但是你可以指定其按比例显示 (如：”80%")。
+name：设置iframe的名称
+
+width：设置iframe的宽度，值可以为像素（不用添加“px”单位）和百分数
+
+height：设置iframe的高度，值可以为像素（不用添加“px”单位）和百分数
+
+src：设置iframe元素内需要显示页面或文件的URL地址，该属性的值可以由与之关联的a标签点击设置（通过将a标签的“target”属性的值设置为该iframe的“name”属性的值进行关联）
+
+frameborder：设置是否显示边框（0 表示不显示边框/ 1 表示要显示边框）
+
+scrolling：设置是否允许滚动（auto/yes/no）
 
 	```
 		<iframe src="demo_iframe.htm" name="iframe_a"></iframe>
-		<p>
-		<a href="http://www.runoob.com" target="iframe_a">RUNOOB.COM</a>
-		</p>
+
 	```
 	
 
