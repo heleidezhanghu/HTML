@@ -44,7 +44,7 @@
 3. 第三天 css 基础
 
     1. <a href="css/css_basic/css_basic.md">css基础</a>
-    2. <a href="css/css_basic/css_basic.md">css选择器</a>
+    2. <a href="css/css_basic/css_selector.md">css选择器</a>
     3. <a href="css/css_basic/css_high_order_selector.md">css高级选择器</a>
     4. <a href="css/css_basic/txt_and_font.md">css字体</a>
 
