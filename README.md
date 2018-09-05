@@ -53,7 +53,7 @@
 4. 第四天 css 盒模型排版
 
     1. <a href="css/css_layout/css_box.md">盒模型</a>
-    2. <a href="css/css_layout/css_box.md">flex布局</a>
+    2. <a href="css/css_layout/css_flex.md">flex布局</a>
 
 
 

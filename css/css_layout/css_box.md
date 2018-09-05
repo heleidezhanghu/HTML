@@ -269,67 +269,7 @@ border：border-width border-style border-color;
 
 ![](../../pics/css/IMGS/border.png)
 
-除此之外，`border` 还有一个很有趣的“玩”法，就是通过将元素的宽高都设为 `0`，然后设置“border”的各分支属性的值将它作为一个“形状”来使用。我们来看这样一个例子：
 
-```html
-<!-- HTML 部分 -->
-<div class="wrap">
-	<section class="t1"></section>
-	<section class="t2"></section>
-	<section class="t3"></section>
-	<section class="t4"></section>
-</div>
-
-<!-- CSS 部分 -->
-<style type="text/css">
-
-	section {
-		display: inline-block;
-		margin: 0 15px;
-	}
-
-	.t1 {
-		width:  50px;
-		height: 50px;
-
-		border-top: 20px solid red;
-		border-right: 20px solid green;
-		border-bottom: 20px solid blue;
-		border-left: 20px solid purple;
-	}
-
-	.t2 {
-		width:  0px;
-		height: 0px;
-
-		border-top: 45px solid red;
-		border-right: 45px solid green;
-		border-bottom: 45px solid blue;
-		border-left: 45px solid purple;
-	}
-
-	.t3 {
-		width:  0px;
-		height: 0px;
-
-		border-top: 45px solid red;
-		border-right: 45px solid transparent;
-		border-bottom: 45px solid blue;
-		border-left: 45px solid transparent;
-	}
-
-	.t4 {
-		width:  0px;
-		height: 0px;
-
-		border-top: 45px solid transparent;
-		border-right: 45px solid green;
-		border-bottom: 45px solid transparent;
-		border-left: 45px solid purple;
-	}
-```
-
-![](../../pics/css/IMGS/border-case-01.jpeg)
 
 
 
