@@ -469,9 +469,7 @@ figure的标题，必须是figure内嵌的第一个或者最后一个元素。
 |ins|插入字|
 |del|删除字|
 
-## 课后练习
 
-![](../../pics/html/html_basic/1.png)
 
 
 
