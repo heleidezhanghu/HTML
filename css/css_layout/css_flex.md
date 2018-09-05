@@ -89,6 +89,51 @@
 - `column`：主轴为垂直方向，起点在上沿。
 - `column-reverse`：主轴为垂直方向，起点在下沿。
 
+    > 注意点 需要设置display:flex;
+
+   ```
+
+		<!DOCTYPE html>
+		<html lang="en">
+		<head>
+		    <meta charset="UTF-8">
+		    <title>Title</title>
+		
+		    <style>
+		
+		
+		        .box {
+		            width: 200px;
+		            height: 200px;
+		            background-color: #58a;
+		            display: flex;
+		            /*flex-direction: row-reverse;*/
+		            flex-direction: column;
+		
+		        }
+		        .item {
+		            width: 50px;
+		            height: 50px;
+		            margin: 2px;
+		            background-color: #fb3;
+		            flex-direction: row;
+		        }
+		
+		    </style>
+		</head>
+		<body>
+		
+		<div class="box"> <!--容器-->
+		    <div class="item">1</div> <!--子项-->
+		    <div class="item">2</div>
+		    <div class="item">3</div>
+		</div>
+		
+		</body>
+		</html>
+
+    ```
+
 ## 2、flex-wrap
 
   默认情况下，子元素都排在一条线（又称"轴线"）上。`flex-wrap` 属性定义，如果一条轴线排不下，如何换行。
@@ -114,6 +159,55 @@
 - wrap-reverse：换行，第一行在下方
 
   ![](../../pics/css/IMGS/flex_wrap_reverse.png)
+  
+  ```
+  <!DOCTYPE html>
+	<html lang="en">
+	<head>
+	    <meta charset="UTF-8">
+	    <title>Title</title>
+	
+	    <style>
+	
+	
+	        .box {
+	            width: 200px;
+	            height: 200px;
+	            background-color: #58a;
+	            display: flex;
+	            flex-direction: row-reverse;
+	            flex-wrap:wrap;
+	
+	        }
+	        .item {
+	            width: 50px;
+	            height: 50px;
+	            margin: 2px;
+	            background-color: #fb3;
+	            flex-direction: row;
+	        }
+	
+	    </style>
+	</head>
+	<body>
+	
+	<div class="box"> <!--容器-->
+	    <div class="item">1</div> <!--子项-->
+	    <div class="item">2</div>
+	    <div class="item">3</div>
+	    <div class="item">4</div>
+	    <div class="item">5</div>
+	    <div class="item">6</div>
+	    <div class="item">7</div>
+	    <div class="item">8</div>
+	    <div class="item">9</div>
+	    <div class="item">10</div>
+	    <div class="item">11</div>
+	</div>
+	
+	</body>
+	</html>
+  ```
 
 
 ## 3、flex-flow
@@ -157,10 +251,18 @@
 - `space-around`：每个子元素两侧的间隔相等。所以，子元素之间的间隔比项目与边框的间隔大一倍。
 
   ![](../../pics/css/IMGS/flex_justify_content_space_around.png)
+  
+  ```
+  
+  flex-wrap:wrap;
+  justify-content:center;
+ 
+  
+  ```
 
 ## 5、align-items
 
-  `align-items` 属性定义项目在交叉轴上如何对齐。
+  `align-items` 属性定义项目在交叉轴(垂直轴)上如何对齐。
 
 ```css
 .box {
@@ -188,7 +290,7 @@
 
 - `stretch`（默认值）：如果子元素未设置高度或设为auto，将占满整个容器的高度。
 
-  ![](IMGS/flex_align_items_stretch.png)
+  ![](../../pics/css/IMGS/flex_align_items_stretch.png)
 
 ## 6、align-content
 
@@ -199,6 +301,8 @@
  	 align-content: flex-start | flex-end | center | space-between | space-around | stretch;
 }
 ```
+
+
 
   该属性可以设置6个值：
 
@@ -211,7 +315,26 @@
 
 ![](../../pics/css/IMGS/flex_align_content.png)
 
-> 提示：为了美观，前面五个元素我都设置了 `margin:10px 0`，而 stretch 为了直观的显示其效果，我没有设置。
+```
+
+        .box {
+            width: 500px;
+            height: 500px;
+            background-color: #58a;
+            display: flex;
+            flex-direction: row-reverse;
+            flex-wrap:wrap;
+            justify-content:center;
+            align-items: baseline;
+            align-content: center;
+
+
+        }
+
+        .box > div {
+            width: 30%;
+        }
+```
 
 # # 元素的属性
 
@@ -241,6 +364,12 @@
 
 ![](../../pics/css/IMGS/flex_grow.png)
 
+```
+
+    <div class="item" style="flex-grow: 10">0.5</div> <!--子项-->
+    <div class="item" style="flex-grow: 1">2342</div>
+    <div class="item" style="flex-grow: 1">3</div>
+```
 ## 3、flex-shrink
 
   `flex-shrink `属性定义了项目的缩小比例，默认为1，即如果空间不足，该项目将缩小。
@@ -289,20 +418,8 @@
 
   建议优先使用这个属性，而不是单独写三个分离的属性，因为浏览器会推算相关值。
 
-## 6、align-self
 
-  align-self属性允许单个项目有与其他项目不一样的对齐方式，可覆盖align-items属性。默认值为auto，表示继承父元素的align-items属性，如果没有父元素，则等同于stretch。
-
-```css
-.item {
-  align-self: auto | flex-start | flex-end | center | baseline | stretch;
-}
-```
-
-![](../../pics/css/IMGS/flex_align_self.png)
+## 使用flex布局
 
 
 
-# # 友情链接
-
-- [Flex 布局新旧版本](http://blog.csdn.net/mutouafangzi/article/details/76797495?hmsr=funteas.com&utm_medium=funteas.com&utm_source=funteas.com)

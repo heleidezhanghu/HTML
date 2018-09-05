@@ -199,6 +199,10 @@ td标签表示真正的数据内容。
 完成以下几个图片的练习
 ![](../../pics/html/forms_and_tables/2.png)
 
+## 练习3
+
+![](../../pics/html/forms_and_tables/6.png)
+
 
 ## HTML 表单概述
 
