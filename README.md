@@ -21,18 +21,26 @@
 
 ## 课程安排笔记和作业
 
-html
+#### html
+
     1. 第一天 html
+
         1. <a href="html/html_basic/html_baisc.md">html简介</a>
+
         2. <a href="html/html_basic/html_element.md">html标签</a>
+
     2. 第二天 html
+
         1. <a href="html/forms_and_tables/forms_and_tables.md">table和表单</a>
 
     3. 第一天-第二天 天作业
+
         1. <a href="html/html_basic/homeworks.md">html基础作业<a>
+
         2. <a href="html/forms_and_tables/html_home_works.md">html表单表格作业</a>
 
-css
+#### css
+
     3. 第三天 css 基础
 
         1. <a href="css/css_basic/css_basic.md">css基础</a>
@@ -50,9 +58,11 @@ css
 
 
     5. 第三天-第四天天 css作业
+
         1. <a href="css/css_basic/home_work.md">课后作业</a>
 
-javascript
+#### javascript
+
     6. 第五天 js 基础语法
 
         1. <a href="js/js_basic/js_basic.md">js基础<a>
@@ -78,10 +88,12 @@ javascript
 
         <a href="js/home_work.md">作业</a>
 
-JQuery
+#### JQuery
+
     8. 第八天 JQuery
 
-bootstrap
+#### bootstrap
+
     9. 第九天 bootstrap
 
 
