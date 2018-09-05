@@ -5,17 +5,17 @@
 
 ###  课后作业提交方式
 
-       请制作一个html页面作为作业
+1. 使用html填写作业答案并提交(如果有多个html文件或者其他文件 请发送文件夹过来)
 
-       请使用邮件提交 1210999688@qq.com
+2. 请使用邮件提交 1210999688@qq.com
 
-       提交格式:
+3. 提交格式:
 
-           标题: pxxxx - $姓名 - html_(js|css|...)课程作业
+    标题: p1804 - $姓名 - （html\_1(1 2 3 表示作业的编号)|js\_2|css\_1|...)等等课程作业
 
-       作业提交时间:
+4. 作业提交时间:
 
-           html js css等 教学完成后三日内提交
+     html js css(整体)等 教学完成后三日内提交
 
 
 
@@ -23,78 +23,78 @@
 
 #### html
 
-    1. 第一天 html
+1. 第一天 html
 
-        1. <a href="html/html_basic/html_baisc.md">html简介</a>
+    1. <a href="html/html_basic/html_baisc.md">html简介</a>
 
-        2. <a href="html/html_basic/html_element.md">html标签</a>
+    2. <a href="html/html_basic/html_element.md">html标签</a>
 
-    2. 第二天 html
+2. 第二天 html
 
-        1. <a href="html/forms_and_tables/forms_and_tables.md">table和表单</a>
+    1. <a href="html/forms_and_tables/forms_and_tables.md">table和表单</a>
 
-    3. 第一天-第二天 天作业
+3. 作业
 
-        1. <a href="html/html_basic/homeworks.md">html基础作业<a>
+    1. <a href="html/html_basic/homeworks.md">html基础作业<a>
 
-        2. <a href="html/forms_and_tables/html_home_works.md">html表单表格作业</a>
+    2. <a href="html/forms_and_tables/html_home_works.md">html表单表格作业</a>
 
 #### css
 
-    3. 第三天 css 基础
+3. 第三天 css 基础
 
-        1. <a href="css/css_basic/css_basic.md">css基础</a>
-        2. <a href="css/css_basic/css_basic.md">css选择器</a>
-        3. <a href="css/css_basic/css_high_order_selector.md">css高级选择器</a>
-        4. <a href="css/css_basic/txt_and_font.md">css字体</a>
-
-
-
-    4. 第四天 css 盒模型排版
-
-        1. <a href="css/css_layout/css_box.md">盒模型</a>
-        2. <a href="css/css_layout/css_box.md">flex布局</a>
+    1. <a href="css/css_basic/css_basic.md">css基础</a>
+    2. <a href="css/css_basic/css_basic.md">css选择器</a>
+    3. <a href="css/css_basic/css_high_order_selector.md">css高级选择器</a>
+    4. <a href="css/css_basic/txt_and_font.md">css字体</a>
 
 
 
-    5. 第三天-第四天天 css作业
+4. 第四天 css 盒模型排版
 
-        1. <a href="css/css_basic/home_work.md">课后作业</a>
+    1. <a href="css/css_layout/css_box.md">盒模型</a>
+    2. <a href="css/css_layout/css_box.md">flex布局</a>
+
+
+
+5. 作业
+
+    1. <a href="css/css_basic/home_work.md">课后作业</a>
 
 #### javascript
 
-    6. 第五天 js 基础语法
+6. 第五天 js 基础语法
 
-        1. <a href="js/js_basic/js_basic.md">js基础<a>
-        2. <a href="js/js_basic/js_construction.md">js结构<a>
-        3. <a href="js/js_basic/js_arr.md">js数组<a>
-        4. <a href="js/js_basic/js_execpiton.md">异常处理<a>
+    1. <a href="js/js_basic/js_basic.md">js基础<a>
+    2. <a href="js/js_basic/js_construction.md">js结构<a>
+    3. <a href="js/js_basic/js_arr.md">js数组<a>
+    4. <a href="js/js_basic/js_execpiton.md">异常处理<a>
 
 
-    6. 第六天 js 函数对象 原型和原型链
+6. 第六天 js 函数对象 原型和原型链
 
-        1. <a href="js/js_basic/js_basic.md">js函数<a>
-        2. <a href="js/js_arr_functions_obj/js_obj.md">js对象<a>
-        3. <a href="js/js_arr_functions_obj/js_prototype.md">原型链<a>
+    1. <a href="js/js_basic/js_basic.md">js函数<a>
+    2. <a href="js/js_arr_functions_obj/js_obj.md">js对象<a>
+    3. <a href="js/js_arr_functions_obj/js_prototype.md">原型链<a>
 
-    7. 第七天 js dom bom
+7. 第七天 js dom bom
 
-        1. <a href="js/js_dom_bom/js_dom.md">dom<a>
-        2. <a href="js/js_dom_bom/js_event.md">js事件<a>
-        3. <a href="js/js_dom_bom/js_bom.md">bom<a>
-        4. <a href="js/js_dom_bom/js_counter.md">计时器和延迟<a>
+    1. <a href="js/js_dom_bom/js_dom.md">dom<a>
+    2. <a href="js/js_dom_bom/js_event.md">js事件<a>
+    3. <a href="js/js_dom_bom/js_bom.md">bom<a>
+    4. <a href="js/js_dom_bom/js_counter.md">计时器和延迟<a>
 
-    8. 第五天-第七天作业
+8. 作业
 
-        <a href="js/home_work.md">作业</a>
+    <a href="js/home_work.md">作业</a>
 
 #### JQuery
 
-    8. 第八天 JQuery
+8. 第八天 JQuery
 
 #### bootstrap
 
-    9. 第九天 bootstrap
+9. 第九天 bootstrap
 
 
 
