@@ -49,13 +49,13 @@
 
 4. 扩展
 
-    1. <a href="html/extension_cookiee_and_session.md">http协议以<a>
+    1. <a href="html/extension_cookiee_and_session.md">http协议<a>
     2. <a href="html/extensions_http.md">cookie session<a>
     3. <a href="html/extenstions_csrf.md">csrf<a>
 
 #### css
 
-3. 第三天 css 基础
+1. 第三天 css 基础
 
     1. <a href="css/css_basic/css_basic.md">css基础</a>
     2. <a href="css/css_basic/css_selector.md">css选择器</a>
@@ -65,7 +65,7 @@
 
 
 
-4. 第四天 css 盒模型排版
+2. 第四天 css 盒模型排版
 
     1. <a href="css/css_layout/css_box.md">盒模型</a>
     2. <a href="css/css_layout/css_position.md">css布局</a>
@@ -73,13 +73,13 @@
 
 
 
-5. 作业
+3. 作业
 
     1. <a href="css/css_basic/home_work.md">课后作业</a>
 
 #### javascript
 
-6. 第五天 js 基础语法
+1. 第五天 js 基础语法
 
     1. <a href="js/js_basic/js_basic.md">js基础<a>
     2. <a href="js/js_basic/js_construction.md">js结构<a>
@@ -87,20 +87,20 @@
     4. <a href="js/js_basic/js_execpiton.md">异常处理<a>
 
 
-6. 第六天 js 函数对象 原型和原型链
+2. 第六天 js 函数对象 原型和原型链
 
     1. <a href="js/js_basic/js_basic.md">js函数<a>
     2. <a href="js/js_arr_functions_obj/js_obj.md">js对象<a>
     3. <a href="js/js_arr_functions_obj/js_prototype.md">原型链<a>
 
-7. 第七天 js dom bom
+3. 第七天 js dom bom
 
     1. <a href="js/js_dom_bom/js_dom.md">dom<a>
     2. <a href="js/js_dom_bom/js_event.md">js事件<a>
     3. <a href="js/js_dom_bom/js_bom.md">bom<a>
     4. <a href="js/js_dom_bom/js_counter.md">计时器和延迟<a>
 
-8. 作业
+4. 作业
 
     <a href="js/home_work.md">作业</a>
 
