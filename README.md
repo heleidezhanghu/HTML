@@ -7,15 +7,19 @@
 
 1. 使用html填写作业答案并提交(如果有多个html文件或者其他文件 请发送文件夹过来)
 
-2. 请使用邮件提交 1210999688@qq.com
+2. 请提交到内网 10.0.0.11 网盘上面
 
-3. 提交格式:
+3. http://10.0.0.11/index.php/apps/files/?dir=/&fileid=88573
+
+4. 提交格式:
 
     标题: p1804 - $姓名 - （html\_1(1 2 3 表示作业的编号)|js\_2|css\_1|...)等等课程作业
 
-4. 作业提交时间:
+5. 作业提交时间:
 
      html js css(整体)等 教学完成后三日内提交
+
+6. 睿峰配套习题 https://www.aulence.com/#js-welcome
 
 
 
@@ -28,6 +32,8 @@
     1. <a href="html/html_basic/html_baisc.md">html简介</a>
 
     2. <a href="html/html_basic/html_element.md">html标签</a>
+
+    3. <a href="html/html_basic/html_global.md">html全局属性</a>
 
 2. 第二天 html
 
