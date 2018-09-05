@@ -35,7 +35,7 @@
 
     3. <a href="html/html_basic/html_global.md">html全局属性</a>
 
-    4. <a href="html/html_basic/html_global.md">实例</a>
+    4. <a href="html/html_basic/practice.md">实例</a>
 
 2. 第二天 html
 
