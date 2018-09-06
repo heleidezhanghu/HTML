@@ -293,7 +293,7 @@ br 元素是一个空的 HTML 元素。由于关闭标签没有任何意义，�
 	</dl>
 ```
 
-## HTML 超链接（链接）
+## a标签 超链接（链接）
 
 1. HTML使用标签 a来设置超文本链接。
 
@@ -312,44 +312,68 @@ br 元素是一个空的 HTML 元素。由于关闭标签没有任何意义，�
 
 5. 链接的 HTML 代码很简单。它类似这样：
 
-	```
-		<a href=“url”>链接文本</a>
-	href 属性描述了链接的目标。
-	实例
-	<a href=“http://www.baidu.com/”>访问百度搜索</a>
-	上面这行代码显示为：访问百度搜索
-		点击这个超链接会把用户带到百度的首页。
-	HTML 链接 - target 属性
-	使用 target 属性，你可以定义被链接的文档在何处显示。
-	下面的这行会在新窗口打开文档：
-	<a href=“http://www.baidu.com/” target=“_blank”>访问百度!</a>
+	1. 标签用于连接
+		
+		```<a href=“url”>链接文本</a>```
+	2. 也可以用于下载
+	
+		```<a href=“url” download>链接文本</a>```
 	
 	
 	
-	<a href="#c2">跳转到c2</a>
-	<dl>
-	    <dt>a</dt>
-	    <dd>a1</dd>
-	    <dd>a2</dd>
-	    <dt>b</dt>
-	    <dd>b1</dd>
-	    <dd>b2</dd>
-	    <dt>b</dt>
-	    <dd>b1</dd>
-	    <dd>b2</dd>
-	    <dt>b</dt>
-	    <dd>b1</dd>
-	    <dd>b2</dd>
-	    <dt>b</dt>
-	    <dd>b1</dd>
-	    <dd>b2</dd> 
-	    <dt>c</dt>
-	    <dd>c1</dd>
-	    <dd id="c2">c2</dd>
-	</dl>
-	```
+	3. href 属性描述了链接的目标。
 	
-## HTML 框架
+		```
+	
+		实例
+		<a href=“http://www.baidu.com/”>访问百度搜索</a>
+		```
+		
+		上面这行代码显示为：访问百度搜索
+			点击这个超链接会把用户带到百度的首页。
+		HTML 链接 - target 属性
+		使用 target 属性，你可以定义被链接的文档在何处显示。
+		下面的这行会在新窗口打开文档：
+		
+		```
+		<a href=“http://www.baidu.com/” target=“_blank”>访问百度!</a>
+		```
+		
+	4. 也可以直接跳转到某个标签上面
+		
+		```
+		<a href="#c2">跳转到c2</a>
+		<dl>
+		    <dt>a</dt>
+		    <dd>a1</dd>
+		    <dd>a2</dd>
+		    <dt>b</dt>
+		    <dd>b1</dd>
+		    <dd>b2</dd>
+		    <dt>b</dt>
+		    <dd>b1</dd>
+		    <dd>b2</dd>
+		    <dt>b</dt>
+		    <dd>b1</dd>
+		    <dd>b2</dd>
+		    <dt>b</dt>
+		    <dd>b1</dd>
+		    <dd>b2</dd> 
+		    <dt>c</dt>
+		    <dd>c1</dd>
+		    <dd id="c2">c2</dd>
+		</dl>
+		```
+	
+## img标签 图片链接
+
+浏览器展示一个图片
+
+```
+<img src="images/a1.png">
+```
+	
+## iframe 框架
 
 
 1. 通过使用框架，你可以在同一个浏览器窗口中显示不止一个页面。
@@ -370,7 +394,7 @@ frameborder：设置是否显示边框（0 表示不显示边框/ 1 表示要显
 scrolling：设置是否允许滚动（auto/yes/no）
 
 	```
-		<iframe src="demo_iframe.htm" name="iframe_a"></iframe>
+		<iframe src="demo_iframe.htm" name="iframe_a" scrolling="yes"></iframe>
 
 	```
 	
