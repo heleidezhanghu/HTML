@@ -16,8 +16,8 @@
 
 资料地址 
 
-<a href="英雄联盟资料.pdf" download="英雄联盟资料.pdf">英雄联盟资料.pdf<a>
+<a href="./lol.pdf" download="./lol.pdf">英雄联盟资料.pdf <a>
 
 图片地址
 
-<a href="magestest.zip" download="imagestest.zip">magestest.zip<a>
+<a href="./imagestest.zip" download="./imagestest.zip">magestest.zip<a>
