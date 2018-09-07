@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #nav1 ol.pagination > li {
+            list-style-type: none;
+            border:1px red solid;
+            width: 150px;
+        }
+        #nav1 ol.pagination{
+            margin: 0;
+            padding: 0;
+            background-color: green;
+            width: 60%;
+            height: 80px;
+            display: flex;
+            justify-content: space-around;
+        }
+
+
+
+
+        #nav2>ul.nav{
+            padding:0;
+            margin:0;
+            list-style-type:none;
+            width:80px;
+            background-color:#8bd400;
+            border:1px solid #486b02;
+        }
+
+
+        /*IE6在列表项的上下添加了额外的空间，为了修复这个BUG，需要将列表上的display属性设置为inline*/
+        #nav2>ul.nav li{
+            display: inline;
+        }
+        /*不对列表项应用样式 而是对其中包含的锚链接应用样式，由此提供更好的浏览器兼容性*/
+        #nav2>ul.nav a{
+            display: block;
+            color:#2B3f00;
+            text-decoration:none;
+            border-top:1px solid #e4ffd3;
+            border-bottom:1px solid #486b02;
+            padding:5px 10px;
+        }
+        /*解决最后一个链接的底边框与列表的底边框形成双线的问题*/
+        #nav2>ul.nav {
+            border:0;
+        }
+        #nav2>ul.nav a:hover{
+            color:#e4ffd3;
+            background-color:#6da203;
+
+        }
+    </style>
+</head>
+<body>
+<nav id="nav1">
+    <ol class="pagination">
+        <li>
+            <a href="#">简书</a>
+        </li>
+        <li>
+            首页
+        </li>
+        <li>
+            下载app
+        </li>
+        <li>
+            搜索
+        </li>
+    </ol>
+</nav>
+
+
+
+    <nav id="nav2">
+        <ul class="nav">
+            <li><a href="#">home</a></li>
+            <li><a href="#">home</a></li>
+            <li><a href="#">home</a></li>
+            <li><a href="#">home</a></li>
+            <li><a href="#">home</a></li>
+            <li><a href="#">home</a></li>
+        </ul>
+    </nav>
+
+</body>
+</html>

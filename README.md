@@ -68,14 +68,20 @@
 2. 第四天 css 盒模型排版
 
     1. <a href="css/css_layout/css_box.md">盒模型</a>
+
     2. <a href="css/css_layout/css_position.md">css布局</a>
-    2. <a href="css/css_layout/css_flex.md">flex布局</a>
+
+    3. <a href="css/css_layout/css_flex.md">flex布局</a>
+
+    4. <a href="css/css_cases/css_nav_cases.md">案例分析</a>
 
 
 
 3. 作业
 
     1. <a href="css/css_basic/home_work.md">课后作业</a>
+
+    2. <a href="css/css_cases/homework.md">案例分析作业</a>
 
 #### javascript
 
@@ -114,9 +120,3 @@
 
 
 
-##遗留问题
-
-1. css的布局和模型
-2. js的原型链补齐
-3. js函数的课堂作业和课后练习
-4. 使用java的jq和bt课件来做
