@@ -27,7 +27,7 @@ p.des { text-indent: 2em; color: blue; }
 
 需要注意的是，由于类名可以被任意多的标签元素使用，因此当你需要为特定标签类名设置样式的时候，可以在 `.` 之前指定标签名，这样就可以选中你要设置的对应的标签名中拥有该class的元素了，如上述示例中的 *“p.des { … }”*  即表示选择所有p标签中类名为`des`的元素。
 
-#### 3. 选择器
+#### 3. id选择器
 
 ID 选择器即根据元素的ID属性值来选取元素，和类选择器类似，但值得注意的是，ID表示唯一标识符，即同一个页面只能出现一个ID。定义一个ID选择器以`#` 开头，如下所示：
 
@@ -88,14 +88,33 @@ header > nav > ul.menu-list { list-style: none; }
 
 伪类选择器和其它选择器有所不同，它是通过触发一定的事件来实现效果，也就是说如果不进行任何操作是看不到该选择器的CSS样式设置的。以Google Chrome浏览器开发者工具为例，要想看到所设置的伪类选择器样式需通过：点击 **Element** 选项栏下 **Style** 选项栏中的  **:hov** 按钮，然后勾选需要查看的操作事件进行样式查看。目前支持的操作事件有，“hover”, “active”，“visited”和“focus”:
 
-- :hover  -> 鼠标悬浮于该元素上设置的样式
-- :active  -> 鼠标悬点击时该元素上设置的样式
-- :visited -> 鼠标悬点击后该元素上设置的样式（不建议使用）
-- :focus   -> 表单元素获得焦点后设置的样式
+- link：表示链接在正常情况下（即页面刚加载完成时）显示的颜色。
+- visited：表示链接被点击后显示的颜色。
+- hover：表示鼠标悬停时显示的颜色。
+- focus：表示元素获得光标焦点时使用的颜色，主要用于文本框输入文字时使用（鼠标松开时显示的颜色,可以使用input来查看）。
+- active：表示当所指元素处于激活状态（鼠标在元素上按下还没有松开）时所显示的颜色。
+
 
 ```css
 a { text-decoration: none; }		
 a:hover { text-decoration: underline;}
+
+
+      a:link{
+            color: red;
+        }
+        a:visited{
+            color: green;
+        }
+        a:hover{
+            color: red;
+        }
+        a:focus{
+            color:black;
+        }
+        a:active{
+            color: yellow;
+        }
 ```
 
 
@@ -142,40 +161,11 @@ div, p { margin:  0; padding: 0; }
 
 ```css
 /*index.css*/
-section div.box { 
-	width:  100px;
-	height: 100px;
-	background-color: red;
+        div ~ p{
+            background-color: blue;
+        }
 
-	/*文本水平居中对齐*/
-	text-align: center;
-	/*line-height = height：文本垂直居中对齐*/
-	line-height: 100px;
-	/*字体颜色*/
-	color: white;
-	/*设置光标样式*/
-	cursor: pointer;
-}
-
-section p {
-	/*转场效果*/
-	transition: all .25s linear;
-}
-
-.t1>.box:hover + p {
-	/*左边距*/
-	margin-left: 200px;
-}
-
-.t2>.box:hover ~ p {
-	/*左边距*/
-	margin-left: 200px;
-}
 ```
-
-  效果示例：
-
-![](IMGS/sibling_selector_test.gif)
 
 
 #### 10. 属性选择器

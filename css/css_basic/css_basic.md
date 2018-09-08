@@ -133,10 +133,34 @@ background-image：属性描述了元素的背景图像.
 	默认情况下，背景图像进行平铺重复显示，以覆盖整个元素实体.
 	body {background-image:url('paper.gif');} 
 
-background-repeat：让背景图像不影响文本的排版
-如果你不想让图像平铺，你可以使用 background-repeat 属性:
-background-repeat:repeat-x;  水平方向平铺
-background-repeat:no-repeat;  图像不平铺
+
+1. 使用css 设置背景颜色
+
+   >css/css_basic/css_backgroud.html
+
+	```
+	
+	<!DOCTYPE html>
+	<html lang="en">
+	<head>
+	    <meta charset="UTF-8">
+	    <title>Title</title>
+	    <style>
+	
+	        body{
+	
+	            background-color: black;
+	
+	        }
+	    </style>
+	</head>
+	<body>
+	
+	</body>
+	</html>
+	
+	```
+	
 
 
 

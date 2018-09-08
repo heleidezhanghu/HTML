@@ -61,19 +61,23 @@
     2. <a href="css/css_basic/css_selector.md">css选择器</a>
     3. <a href="css/css_basic/css_high_order_selector.md">css高级选择器</a>
     4. <a href="css/css_basic/txt_and_font.md">css字体</a>
-    5. <a href="css/css_basic/css_hidden">css隐藏</a>
+    5.  <a href="css/css_basic/elements_kins.md">元素分类</a>
+    6.  <a href="css/css_layout/css_box.md">盒模型</a>
+    
 
 
 
 2. 第四天 css 盒模型排版
 
-    1. <a href="css/css_layout/css_box.md">盒模型</a>
+	 1.  <a href="css/css_basic/css_hidden">css隐藏</a>
+	 
+    2. <a href="css/css_layout/css_box.md">盒模型</a>
 
-    2. <a href="css/css_layout/css_position.md">css布局</a>
+    3. <a href="css/css_layout/css_position.md">css布局</a>
 
-    3. <a href="css/css_layout/css_flex.md">flex布局</a>
+    4. <a href="css/css_layout/css_flex.md">flex布局</a>
 
-    4. <a href="css/css_cases/css_nav_cases.md">案例分析</a>
+    5. <a href="css/css_cases/css_nav_cases.md">案例分析</a>
 
 
 
