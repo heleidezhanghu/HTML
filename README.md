@@ -49,35 +49,33 @@
 
 4. 扩展内容
 
-    1. <a href="html/extensions_http.md">http协议 <a>
-    2. <a href="html/extension_cookiee_and_session.md">cookie session<a>
-    3. <a href="html/extenstions_csrf.md">csrf<a>
+    1. <a href="html/extensions_http.md">http协议 </a>
+    2. <a href="html/extension_cookiee_and_session.md">cookie session</a>
+    3. <a href="html/extenstions_csrf.md">csrf</a>
+
 
 #### css
+
 
 1. 第三天 css 基础
 
     1. <a href="css/css_basic/css_basic.md">css基础</a>
+    
     2. <a href="css/css_basic/css_selector.md">css选择器</a>
+   
     3. <a href="css/css_basic/css_high_order_selector.md">css高级选择器</a>
     4. <a href="css/css_basic/txt_and_font.md">css字体</a>
     5.  <a href="css/css_basic/elements_kins.md">元素分类</a>
     6.  <a href="css/css_layout/css_box.md">盒模型</a>
-    
-
 
 
 2. 第四天 css 盒模型排版
 
-	 1.  <a href="css/css_basic/css_hidden">css隐藏</a>
-	 
-    2. <a href="css/css_layout/css_box.md">盒模型</a>
-
-    3. <a href="css/css_layout/css_position.md">css布局</a>
-
-    4. <a href="css/css_layout/css_flex.md">flex布局</a>
-
-    5. <a href="css/css_cases/css_nav_cases.md">案例分析</a>
+    1. <a href="css/css_layout/css_position.md">css布局</a>
+    
+    2. <a href="css/css_layout/css_hidden.md">css隐藏</a>
+   
+    3. <a href="css/css_cases/css_nav_cases.md">案例分析</a>
 
 
 
@@ -110,17 +108,19 @@
     3. <a href="js/js_dom_bom/js_bom.md">bom<a>
     4. <a href="js/js_dom_bom/js_counter.md">计时器和延迟<a>
 
-4. 作业
+4. 课后作业
 
     <a href="js/home_work.md">作业</a>
 
 #### JQuery
 
-8. 第八天 JQuery
+
 
 #### bootstrap
 
-9. 第九天 bootstrap
+1. <a href="css/css_layout/css_flex.md">flex布局</a>
+
+
 
 
 

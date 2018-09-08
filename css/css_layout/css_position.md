@@ -229,6 +229,78 @@ fixed：表示固定定位，与absolute定位类型类似，但它的相对移�
 
 ```
 
+## 相对定位和绝对定位的组合使用
 
+#### 概述
 
+上面看到 绝对定位是基于整个html的原点来进行位移的,其实我们也可以让绝对定位的参照点为某个元素,这就涉及到他们的组合使用了
 
+#### 使用
+
+1. 参照定位的元素必须是相对定位元素的前辈元素：
+
+	```
+	<div id="box1"><!--参照定位的元素-->
+	    <div id="box2">相对参照元素进行定位</div><!--相对定位元素-->
+	</div>
+	
+	```
+
+2. 参照定位的元素必须加入position:relative;
+
+	```
+	
+	#box1{
+	    width:200px;
+	    height:200px;
+	    position:relative;        
+	}
+	
+	```
+
+3. 定位元素加入position:absolute，便可以使用top、bottom、left、right来进行偏移定位了。
+
+	```
+	#box2{
+	    position:absolute;
+	    top:20px;
+	    left:30px;         
+	}
+	```
+
+4. 组合使用
+	
+	```
+	
+	<!DOCTYPE html>
+	<html lang="en">
+	<head>
+	    <meta charset="UTF-8">
+	    <title>Title</title>
+	    <style>
+	        #d1 {
+	            position: relative;
+	            border: 1px solid red;
+	            height: 50px;
+	            width: 50px;
+	        }
+	
+	        #d2 {
+	            position: absolute;
+	            top: 10px;
+	            left: 10px;
+	            border: 1px solid red;
+	
+	            height: 10px;
+	            width: 10px;
+	        }
+	    </style>
+	</head>
+	<body>
+	<div id="d1">
+	    <div id="d2"></div>
+	</div>
+	</body>
+	</html>
+	
+	```
