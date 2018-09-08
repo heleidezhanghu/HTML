@@ -81,9 +81,9 @@
 
 3. 作业
 
-    1. <a href="css/css_basic/home_work.md">课后作业</a>
+    1. <a href="css/css_basic/home_work.md">css基础部分作业</a>
 
-    2. <a href="css/css_cases/homework.md">案例分析作业</a>
+    2. <a href="css/css_cases/homework.md">css布局练习作业</a>
 
 #### javascript
 
