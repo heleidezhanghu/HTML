@@ -89,28 +89,48 @@
 
 1. 第五天 js 基础语法
 
+	 1. <a href="js/js_basic/basic.md">js概述<a>
     1. <a href="js/js_basic/js_basic.md">js基础<a>
-    2. <a href="js/js_basic/js_construction.md">js结构<a>
-    3. <a href="js/js_basic/js_arr.md">js数组<a>
-    4. <a href="js/js_basic/js_execpiton.md">异常处理<a>
 
+    
+    2. <a href="js/js_basic/js_construction.md">js结构语句<a>
+    
+    
+	
+    3. <a href="js/js_arr_functions_obj/js_function.md">js函数<a>
 
-2. 第六天 js 函数对象 原型和原型链
+    4. <a href="js/js_arr_functions_obj/js_obj.md">js对象<a>
+    
+    5. <a href="js/js_arr_functions_obj/recursion_algorithm.md">算法1(递归算法)<a>
+    
 
-    1. <a href="js/js_basic/js_basic.md">js函数<a>
-    2. <a href="js/js_arr_functions_obj/js_obj.md">js对象<a>
-    3. <a href="js/js_arr_functions_obj/js_prototype.md">原型链<a>
+2.  第六天 js dom bom 浏览器对象
 
-3. 第七天 js dom bom
-
+	
     1. <a href="js/js_dom_bom/js_dom.md">dom<a>
+    
     2. <a href="js/js_dom_bom/js_event.md">js事件<a>
+    
     3. <a href="js/js_dom_bom/js_bom.md">bom<a>
+    
     4. <a href="js/js_dom_bom/js_counter.md">计时器和延迟<a>
+
+3. 第七天 js 原型链 css js 复习
+
+	 <a href="js/js_basic/js_kinds.md">基本类型 引用类型<a>
+    <a href="js/js_arr_functions_obj/js_prototype.md">原型链<a>
 
 4. 课后作业
 
-    <a href="js/home_work.md">作业</a>
+    <a href="js/js_basic/js_basic_homework.md">1.多重循环练习<a>
+    
+
+    <a href="js/js_arr_functions_obj/js_function_homework.md">2.函数算法练习<a>
+    
+5. 课后阅读
+
+	1. <a href="js/js_basic/js_arr.md">js数组<a>
+	2. <a href="js/js_basic/js_execpiton.md">异常处理<a>
 
 #### JQuery
 
