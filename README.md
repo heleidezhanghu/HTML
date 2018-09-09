@@ -106,7 +106,13 @@
 
 2.  第六天 js dom bom 浏览器对象
 
-	
+    1. <a href="js/js_dom_bom/dom_operations.md">js dom操作<a>
+    2. <a href="js/js_dom_bom/js_event_my.md">js 事件<a>
+    3. <a href="js/js_dom_bom/js_bom_my.md">js 浏览器对象<a>
+    5. <a href="js/js_cases_code/js_cases.md">案例分析<a>
+
+    - ### 扩展阅读(选读)
+    
     1. <a href="js/js_dom_bom/js_dom.md">dom<a>
     
     2. <a href="js/js_dom_bom/js_event.md">js事件<a>
@@ -114,6 +120,7 @@
     3. <a href="js/js_dom_bom/js_bom.md">bom<a>
     
     4. <a href="js/js_dom_bom/js_counter.md">计时器和延迟<a>
+
 
 3. 第七天 js 原型链 css js 复习
 
