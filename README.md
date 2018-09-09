@@ -134,6 +134,8 @@
 
     <a href="js/js_arr_functions_obj/js_function_homework.md">2.函数算法练习<a>
     
+    <a href="js/js_cases_code/cases_homework.md">3.案例分析作业</a>
+    
 5. 课后阅读
 
 	1. <a href="js/js_basic/js_arr.md">js数组<a>
@@ -145,7 +147,13 @@
 
 #### bootstrap
 
+
 1. <a href="css/css_layout/css_flex.md">flex布局</a>
+
+#### web阶段考核说明
+
+
+<a href="web_final_exam_brief.md">考核说明</a>
 
 
 
