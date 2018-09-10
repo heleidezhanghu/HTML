@@ -1,0 +1,49 @@
+/*css选择器*/
+
+/*选中所有的标签*/
+/*ol{*/
+    /*border: 1px solid red;*/
+/*}*/
+
+/*li{*/
+    /*border: 1px solid blue;*/
+/*}*/
+
+/*id选择器*/
+/*#li1{*/
+    /*border: 1px solid blue;*/
+/*}*/
+
+/*#li2{*/
+    /*border: 1px solid red;*/
+/*}*/
+
+/*#p1{*/
+   /*color: red;*/
+/*}*/
+
+/*#p2{*/
+    /*color: red;*/
+/*}*/
+
+/*.c1{*/
+    /*color: blue;*/
+/*}*/
+
+/*.c2{*/
+    /*border: 1px solid black;*/
+/*}*/
+
+/*盒模型*/
+/**{*/
+    /*margin: 0;*/
+    /*padding: 0;*/
+/*}*/
+
+/*#nav1 > ul{*/
+    /*color: #6da203;*/
+/*}*/
+
+#ol1 > #html1{
+    color: #d42f5c;
+}

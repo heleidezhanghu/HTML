@@ -60,13 +60,12 @@
 1. 第三天 css 基础
 
     1. <a href="css/css_basic/css_basic.md">css基础</a>
-    
     2. <a href="css/css_basic/css_selector.md">css选择器</a>
-   
-    3. <a href="css/css_basic/css_high_order_selector.md">css高级选择器</a>
-    4. <a href="css/css_basic/txt_and_font.md">css字体</a>
-    5.  <a href="css/css_basic/elements_kins.md">元素分类</a>
-    6.  <a href="css/css_layout/css_box.md">盒模型</a>
+    3.  <a href="css/css_basic/css_weight.md">css权重</a>
+    4. <a href="css/css_basic/css_high_order_selector.md">css高级选择器</a>
+    5. <a href="css/css_basic/txt_and_font.md">css字体</a>
+    6. <a href="css/css_basic/elements_kins.md">元素分类</a>
+    7. <a href="css/css_layout/css_box.md">盒模型</a>
 
 
 2. 第四天 css 盒模型排版
@@ -126,6 +125,7 @@
 
 	 <a href="js/js_basic/js_kinds.md">基本类型 引用类型<a>
     <a href="js/js_arr_functions_obj/js_prototype.md">原型链<a>
+    <a>ajax请求</a>
 
 4. 课后作业
 
@@ -142,6 +142,12 @@
 	2. <a href="js/js_basic/js_execpiton.md">异常处理<a>
 
 #### JQuery
+
+1. 第八天
+
+	1. <a href="jquery/jq_basic.md">jquery基础选择器<a>
+	2. <a href="jquery/jq_dom.md">jquery dom操作<a>
+	3. <a href="jquery/jq_event.md">jquery 事件<a>
 
 
 
