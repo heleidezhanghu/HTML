@@ -124,7 +124,9 @@
 3. 第七天 js 原型链 css js 复习
 
 	 <a href="js/js_basic/js_kinds.md">基本类型 引用类型<a>
-    <a href="js/js_arr_functions_obj/js_prototype.md">原型链<a>
+	 
+   
+    
     <a>ajax请求</a>
 
 4. 课后作业
@@ -141,13 +143,17 @@
 	1. <a href="js/js_basic/js_arr.md">js数组<a>
 	2. <a href="js/js_basic/js_execpiton.md">异常处理<a>
 
+	3. <a href="js/js_arr_functions_obj/js_prototype.md">原型链<a>
+
 #### JQuery
 
-1. 第八天
+1. jquery
 
 	1. <a href="jquery/jq_basic.md">jquery基础选择器<a>
 	2. <a href="jquery/jq_dom.md">jquery dom操作<a>
 	3. <a href="jquery/jq_event.md">jquery 事件<a>
+	4. <a href="jquery/jquery_attr.md">jquery实用参数<a>
+	5. <a href="jquery/cases.md">jquery案例<a>
 
 
 

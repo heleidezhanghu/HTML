@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>css布局练习</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        #one > ul{
+            margin-top: 20px;
+            list-style: none;
+            width: 110px;
+            line-height: 30px;
+
+        }
+        #one > ul >li,#two > ul >li{
+            margin-bottom: 2px;
+            background-color: #dbe3e2;
+            padding-left: 20px;
+            padding-right:20px ;
+            text-align-last: justify;
+        }
+        #two > ul{
+            list-style: none;
+            line-height: 30px;
+            width: 600px;
+            margin-top: 20px;
+        }
+        #two > ul > li{
+            float: left;
+        }
+        #one ul li:hover,#two ul li:hover{
+            background-color: #ff7066;
+        }
+        div{
+            margin-top: 30px;
+            margin-bottom: 20px;
+        }
+        #three{
+            list-style: none;
+            line-height: 30px;
+            width: 100px;
+            text-align:center;
+        }
+        #three li{
+            background-color:rgb(109,162,4) ;
+            border: 2px solid blue;
+            border-radius: 4px;
+        }
+        #three{
+            margin-top: 100px;
+        }
+        #first{
+            position: relative;
+
+        }
+        #second{
+            list-style: none;
+            display: none;
+            height: 400px;
+            position: absolute;
+            width: 100px;
+            top: 30px;
+            left: 40px;
+        }
+        #thrid{
+            list-style: none;
+            display: none;
+            height: 240px;
+            position: absolute;
+            width: 100px;
+            top: 30px;
+            left: 40px;
+        }
+        #first:hover ~#three2{
+            margin-top: 60px;
+        }
+        #first:hover #second{
+            display: block;
+        }
+
+        #second1:hover #thrid{
+            display: block;
+        }
+        #first:hover ~#three2{
+            margin-top: 80px;
+        }
+
+        #second1:hover #thrid{
+            display: block;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="one">
+        <ul>
+            <li>首页</li>
+            <li>新闻快讯</li>
+            <li>产品展示</li>
+            <li>售后服务</li>
+            <li>联系我们</li>
+        </ul>
+    </div>
+    <div id="two">
+        <ul>
+            <li>首页</li>
+            <li>新闻快讯</li>
+            <li>产品展示</li>
+            <li>售后服务</li>
+            <li>联系我们</li>
+        </ul>
+    </div>
+    <ul id="three">
+        <li id="first">章节
+            <ul id="second">
+                <li id="second1">python
+                    <ul id="thrid">
+                        <li>GUI</li>
+                        <li>SOCKET</li>
+                        <li>ASYNC</li>
+                    </ul>
+                </li>
+                <li>go</li>
+            </ul>
+        </li>
+        <li id="three2">问答</li>
+        <li>笔记</li>
+        <li>提问</li>
+    </ul>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <title></title>
+    <script src="../../sources/jq/jq.js"></script>
+    <style>
+        .content {
+            width: 300px;
+        }
+        .append{
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+<h2>通过append添加元素</h2>
+<button id="bt1">点击通过jQuery的append添加元素</button>
+<div class="content">asdf</div>
+<script type="text/javascript">
+    $("#bt1").on('click', function() {
+        //.append(), 内容在方法的后面，
+        //参数是将要插入的内容。
+        $(".content").prepend('<div class="append">通过append方法添加的元素</div>')
+    })
+</script>
+</body>
+</html>
