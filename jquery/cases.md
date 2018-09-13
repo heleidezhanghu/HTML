@@ -13,3 +13,5 @@
 ![](codes/form_research.png)
 
 > jquery/codes/form_research.html
+
+## 2. 动态添加元素

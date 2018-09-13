@@ -105,7 +105,7 @@ loginBtn.onclick = function() {
 var score = 92;
 
 if(score >= 90 && score <= 100) {
-    console.log('优秀！');
+   console.log('优秀！');
 }else if(score >= 70 && score < 90) {
     console.log('良好！');
 }else if(score >= 60 && score < 70) {

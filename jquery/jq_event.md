@@ -148,3 +148,9 @@
         $("#li1").siblings().css('border','')
     })
 ```
+##### 4. 焦点 focusin focusout
+
+说明:和css中的一样 当获取到焦点的时候jquery也可以捕捉到这个时间(input框)
+
+使用说明:
+

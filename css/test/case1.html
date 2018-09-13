@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        ul{
+            list-style: none;
+        }
+
+        ul>li a{
+            background-color: #86CB05;
+            width: 200px;
+            height: 40px;
+            text-align: center;
+            line-height: 40px;
+            margin: 5px;
+            border-radius: 10px;
+            display: block;
+
+        }
+
+        #ul1>li:first-of-type>ul{
+            display: none;
+
+        }
+
+        #ul1>li:first-of-type:hover >ul{
+            display: block;
+
+        }
+        /*a{*/
+            /*text-decoration: none;*/
+            /*display: block;*/
+        /*}*/
+
+    </style>
+</head>
+<body>
+
+<ul id="ul1">
+    <li id="a1">
+        <a href="#">章节</a>
+        <ul>
+            <li><a>html</a></li>
+            <li><a>css</a></li>
+            <li><a>js</a></li>
+        </ul>
+    </li>
+    <li id="li2">
+        <a href="#" id="a2">问答</a>
+    </li>
+    <li>
+        <a href="#">笔记</a>
+    </li>
+    <li>
+        <a href="#">提问</a>
+    </li>
+
+</ul>
+</body>
+</html>

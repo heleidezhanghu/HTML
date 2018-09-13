@@ -119,15 +119,10 @@
     3. <a href="js/js_dom_bom/js_bom.md">bom<a>
     
     4. <a href="js/js_dom_bom/js_counter.md">计时器和延迟<a>
+    5.  <a href="js/js_basic/js_kinds.md">基本类型 引用类型<a>
 
 
-3. 第七天 js 原型链 css js 复习
-
-	 <a href="js/js_basic/js_kinds.md">基本类型 引用类型<a>
-	 
-   
-    
-    <a>ajax请求</a>
+3. 第七天 css js 复习
 
 4. 课后作业
 
@@ -154,6 +149,7 @@
 	3. <a href="jquery/jq_event.md">jquery 事件<a>
 	4. <a href="jquery/jquery_attr.md">jquery实用参数<a>
 	5. <a href="jquery/cases.md">jquery案例<a>
+	6. <a>ajax请求</a>
 
 
 

@@ -446,8 +446,7 @@ document.getElementsByTagName('li')
 	</html>
 
 	```
-
-2.     
+ 
 
 
 
