@@ -3,7 +3,7 @@
 
 ## 获取元素
 
-#### 1.通过属性值 nmae来获取  document.getElementsByName(name)
+#### 1.通过属性值 name来获取  document.getElementsByName(name)
 
 1. 说明:
 	通过元素的 name 属性查询元素,比如所有name=password的标签
@@ -197,8 +197,8 @@ document.getElementsByTagName('li')
 	
 #### 2. 访问子节点的第一和最后项
 
-1. firstChild
-2. lastChild
+1. firstElementChild
+2. lastElementChild
 
 ```
 <!DOCTYPE html>
@@ -222,8 +222,8 @@ document.getElementsByTagName('li')
 </ol>
 <script>
     let o1 = document.getElementsByTagName('ol')[0];
-    console.log(o1.firstChild);
-    console.log(o1.lastChild);
+    console.log(o1. firstElementChild);
+    console.log(o1. firstElementChild);
 </script>
 </body>
 </html>
@@ -302,6 +302,7 @@ document.getElementsByTagName('li')
 	```
 
 	1. 访问下一个节点nextSibling
+	      nextElementSibling
 	
 		```
 		
@@ -310,6 +311,7 @@ document.getElementsByTagName('li')
 		```
 	
 	2. 访问上一个节点previousSibling
+previousElementSibling
 	
 		```
 		li1.previousSibling

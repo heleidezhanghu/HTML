@@ -3,37 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <script>
+
+    </script>
 </head>
 <body>
-
+<ol>
+    <li class="li">test</li>
+    <li class="li">test</li>
+    <li>test</li>
+</ol>
+<!--<input name="account">-->
+<!--<input name="account">-->
 <script>
+    //数组
+    // document.getElementsByName('account');
+    //数组
+    // var li_list = document.getElementsByTagName('li');
+    // document.write(li_list.length);
+    // li1 = li_list[0];
+    // li1.innerText = '<a href="#">test1231</a>';
+    // //li.innerHTML  会把你的输入的标签识别到，放入html里面
+    // //li1.innerText 你输入什么就是什么
+    // //对象
+    // var li3 = document.getElementById('li3');
+    // li3.innerText = '已经修改过的';
 
-    var list =
-        [4,6,7,
-            [1,2,3]
-        ];
-
-    let test_str = '1312414';
-    //下标 给list object iterate类型
-    // for(var i in list){
-    //     document.write(i)
-    // }
-    //值
-    // for(let i of test_str){
-    //     document.write(i);
-    // }
-    var i = 0;
-    while (i < 6) {
-        i++;
-        if(i ===3){
-            continue;
-        }
-        document.write(i);
-
-
+    // var li_list = document.getElementsByTagName('li')
+    var li_test = document.getElementsByClassName('li');
+    for(let i in li_test){
+        let tmp_num = i-0;
+        tmp_num = i+1;
+        // document.write(i);
+        let tmp = 'test'+tmp_num;
+        // document.write(i);
+        li_test[i].innerHTML = '<a href="#">'+tmp+'</a>';
+        li_test[i].style.border = '1px solid red';
     }
 
-    //break continue return
+    //1.  getElementById 相当于css id选择器
+    //2.  getElementsByTagName 相当于css 元素选择器
+    //3.  getElementsByClassName 相当于css 类选择器
+    //4.  getElementsByName   相当于css 属性选择器
+
+
+
+
 </script>
 </body>
 </html>

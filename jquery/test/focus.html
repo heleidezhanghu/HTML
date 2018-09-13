@@ -14,12 +14,18 @@
 </div>
 <div class="right">
     <div class="aaron1">
-        点击聚焦并传递参数：<input type="text" />
+        点击聚焦并传递参数：<input type="text" id="input1" />
     </div>
 </div>
 
 <script>
-    $(':input :focus')
+    $(":input").focusin(function() {
+        $(this).css('border','2px solid red');
+        $(this).attr('value','test');
+    });
+    $(":input").focusout(function() {
+        $(this).css('border','1px solid')
+    })
 
 </script>
 </body>

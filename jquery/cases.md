@@ -15,3 +15,6 @@
 > jquery/codes/form_research.html
 
 ## 2. 动态添加元素
+
+展示位置
+>jquery/codes/tables_del_add.html

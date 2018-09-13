@@ -149,7 +149,7 @@
 	3. <a href="jquery/jq_event.md">jquery 事件<a>
 	4. <a href="jquery/jquery_attr.md">jquery实用参数<a>
 	5. <a href="jquery/cases.md">jquery案例<a>
-	6. <a>ajax请求</a>
+	6. <a href="https://www.jianshu.com/p/4ce22e5ecb54">ajax请求</a>
 
 
 
