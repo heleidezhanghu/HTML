@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function f(arr,target) {
+        for(let i=0;i<arr.length;i++){
+            arr[i] = arr[i]-0;
+            for(let j =i+1;j<arr.length;j++){
+                arr[j] = arr[j] -0;
+                if(arr[j] + arr[i] === target){
+                    return [arr[j],arr[i]]
+                }
+            }
+        }
+        return false
+    }
+    let res = f([2, 11, 7, 15],22)
+</script>
+
+</body>
+</html>

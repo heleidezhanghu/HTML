@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function f(str) {
+        let tmp ={};
+        for(let i of str){
+            if(tmp[i] !== undefined){
+                tmp[i] += 1;
+            }else{
+                tmp[i] = 1;
+            }
+        }
+        let tmp1 =[];
+        for(let j in tmp){
+            //{a: 6, f: 2, j: 1, g: 1, h: 1}
+            tmp1[tmp[j]] = j
+        }
+        return tmp1;
+        //2n
+    }
+    let str = 'afjghdfraaaasdenas';
+    let res = f(str)
+
+
+</script>
+</body>
+</html>

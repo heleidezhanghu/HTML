@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+
+    function sort(arr) {
+        //把第一个数字和后面的比较排序,得到新数组
+
+        let total_len = arr.length;
+        //遍历数组
+        for(let i =0;i<total_len;i++){
+            //把i之后的所有数和对比,如果比i小就交换位置
+            for(let j=i+1;j<total_len;j++){
+                if(arr[i]>arr[j]){
+                    let tmp = arr[j];
+                    arr[j] = arr[i];
+                    arr[i] = tmp;
+                }
+            }
+        }
+        return arr
+    }
+
+    let res = sort([8, 1 ,3, 2, 9, 5, 4, 7])
+</script>
+</body>
+</html>

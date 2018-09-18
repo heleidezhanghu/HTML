@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form>
+    账户<input value="" id="account">
+    密码<input value="" type="password">
+    确认密码<input value="" type="password">
+    <input onclick='warming()' type="submit" value="提交" id="submit">
+</form>
+<script>
+    function warming() {
+        // alert('请确认的账户密码');
+        let account = document.getElementById('account');
+        let account_val = account.value;
+        if(account_val === undefined || account_val===null ||account_val===""){
+            alert('请输入你的账户');
+            return false
+        }
+        let password = account.nextElementSibling;
+        let re_password = password.nextElementSibling;
+        let pwd_value = password.value;
+        let re_pwd_value = re_password.value;
+        if(pwd_value === undefined || pwd_value===null ||pwd_value===""){
+            alert('密码不能为空');
+            return false
+        }
+        if(re_pwd_value !== pwd_value){
+            alert('两次密码输入必须一致');
+            return false
+        }
+    }
+    let button = document.getElementById('submit');
+    //click
+    //onclick 选中节点也可以绑定事件
+    //button.onclick(warming());
+    //可以直接在括号里面去包含一个函数
+    // button.onclick(function () {
+    //     alert('请确认的账户密码')
+    // })
+</script>
+</body>
+</html>
