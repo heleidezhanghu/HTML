@@ -11,9 +11,9 @@
 
 ## 1. 下拉框（总分 50）
 
-![](case2/1.png)
-![](case2/2.png)
-![](case2/3.png)
+![](p1804_tmp/case2/1.png)
+![](p1804_tmp/case2/2.png)
+![](p1804_tmp/case2/3.png)
 
 说明:
 
@@ -30,9 +30,9 @@
 
 ## 2. 产品信息添加 （总分 50）
 
-![](case1/case4.png)
-![](case1/case3.png)
-![](case1/case2.png)
+![](p1804_tmp/case1/case4.png)
+![](p1804_tmp/case1/case3.png)
+![](p1804_tmp/case1/case2.png)
 
 说明:
 
