@@ -1,7 +1,0 @@
-#f1 > input:hover{
-    background-color: grey;
-}
-
-#f1 > input:focus{
-    background-color: green;
-}
