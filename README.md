@@ -7,19 +7,36 @@
 
 1. 使用html填写作业答案并提交(如果有多个html文件或者其他文件 请发送文件夹过来)
 
-2. 请提交到内网 10.0.0.11 网盘上面
+2. 请提交到gitee上面
 
-3. http://10.0.0.11/index.php/apps/files/?dir=/&fileid=88573
+3. 提交格式:
 
-4. 提交格式:
+    请在gitee的首页注明html作业的位置
 
-    标题: p1804 - $姓名 - （html\_1(1 2 3 表示作业的编号)|js\_2|css\_1|...)等等课程作业
+4. 作业提交时间:
 
-5. 作业提交时间:
+     2019-4-27中午12点前
+     本阶段考核成绩以作业为标准:
 
-     html js css(整体)等 教学完成后三日内提交
+5. 本阶段需要完成的作业:
 
-6. 睿峰配套习题 https://www.aulence.com/#js-welcome
+    1. <a href="html/html_basic/homeworks.md">html基础作业<a>
+
+    2. <a href="html/forms_and_tables/html_home_works.md">html表单表格作业</a>
+
+    3. <a href="css/css_basic/home_work.md">css基础部分作业</a>
+
+    4. <a href="css/css_cases/homework.md">css布局练习作业</a>
+
+    5. <a href="js/js_basic/js_basic_homework.md">1.多重循环练习<a>
+
+
+    6. <a href="js/js_arr_functions_obj/js_function_homework.md">2.函数算法练习<a>
+
+    6. <a href="js/js_cases_code/cases_homework.md">3.案例分析作业</a>
+
+
+5. 睿峰配套习题 https://www.aulence.com/#js-welcome
 
 
 
@@ -140,7 +157,7 @@
 
 	3. <a href="js/js_arr_functions_obj/js_prototype.md">原型链<a>
 
-#### JQuery
+<!-- #### JQuery
 
 1. jquery
 
@@ -164,6 +181,8 @@
 <a href="web_final_exam_brief.md">考核说明</a>
 
 <a href="questions_p1805.md">试题</a>
+
+-->
 
 
 
