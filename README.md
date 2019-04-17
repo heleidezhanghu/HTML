@@ -139,7 +139,6 @@
     5.  <a href="js/js_basic/js_kinds.md">基本类型 引用类型<a>
 
 
-3. 第七天 css js 复习
 
 4. 课后作业
 
