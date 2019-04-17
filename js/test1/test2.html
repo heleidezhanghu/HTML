@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function f(n) {
+        n = n-0;
+        if(n%2===0){
+            return false
+        }
+        let hr=Math.ceil(n/2);
+        for(let i=1;i<=n;i++){
+            //找出空格数量 //i=5  hr=3
+            let space_num = Math.abs(hr - i);
+            //中间的行数减去空格数量
+            let star_num = (hr - space_num)*2 -1;
+            let space_str = "&nbsp".repeat(space_num);
+            let star_num_str = "*";
+            if(star_num === 1){
+                document.write(space_str+star_num_str+'<br>');
+                continue
+            }
+            let star_num_str_space = "&nbsp".repeat(star_num-2);
+            let star_num_str_final = "*";
+            document.write(space_str+star_num_str+star_num_str_space+star_num_str_final+"<br>")
+        }
+    }
+
+    f(9)
+
+
+</script>
+</body>
+</html>

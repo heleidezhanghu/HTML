@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+
+    <style>
+        /*#nav1 > ul > li,#nav1 > ol > li{*/
+        /*background: #6da203;*/
+        /*}*/
+        /*#nav1 > ul > li:hover {*/
+        /*background: #4133a2;*/
+        /*border: 1px solid #ff5a43;*/
+        /*}*/
+
+        /*#nav1 li{*/
+        /*border: 1px solid red;*/
+        /*}*/
+
+        /*.test1{*/
+        /*border: 1px solid blue;*/
+        /*}*/
+        /*#form1>input{*/
+        /*background-color: #16ceff;*/
+        /*}*/
+
+        /*#form1>input:hover{*/
+        /*background-color: #f2ff56;*/
+        /*}*/
+
+        /*#form1>input:focus{*/
+        /*background-color: #ff5389;*/
+        /*}*/
+
+        /*#p2 ~ li{*/
+        /*color: red;*/
+        /*}*/
+
+        /*.c_form1{*/
+        /*background-color: #17353f;*/
+        /*}*/
+
+        /*#form1{*/
+        /*background-color: #61edd7;*/
+        /*}*/
+        /*#id{*/
+
+        /*}*/
+
+        #ol1 > #html1 {
+            color: #73d44d;
+            background-color: #68aed4;
+        }
+
+        #html1 {
+            color: #73d44d;
+            background-color: #93c1d4;
+        }
+
+        /*#ol1 > #html1{*/
+        /*color: #8bd400;*/
+        /*}*/
+        /*
+        标签选择器 1 最多到 1
+        类选择和伪类选择器 10 最多到 90
+        id选择器 100 最多加到900
+        行内 1000
+        !important 10000
+        */
+        #form1 p:before {
+            /*content: url('../css_basic/timg.jpeg');*/
+            color: #8bd400;
+            font-size: 64px;
+            background: 20px;
+            height: 20px;
+            display: block;
+        }
+    </style>
+    <!--<link href="test.css" rel="stylesheet">-->
+</head>
+<body>
+<form id="form1" class="c_form1">
+    焦点 <input name="test1" value="asdf">
+    焦点2 <input name="test2">
+    <p>Helloasdjfasj<br>dklfjklasdfjsasdfasdfasdfasdfsadfsadfsad
+        <br>fsadfsajdfsadfahoughaushguhfuasdf</p>
+</form>
+<ol id="ol1">
+    <li>
+        html
+    </li>
+    <li>
+        css
+    </li>
+    <li>
+        js
+    </li>
+</ol>
+<nav id="nav1">
+    <ul>
+        <li>python</li>
+        <li>js</li>
+        <li class="g2">
+            <ol style="color: #16ceff">
+                <li class="test1">test1</li>
+                <li class="test1">test1</li>
+                <li class="test1">test1</li>
+            </ol>
+        </li>
+    </ul>
+    <ol>
+        <li>python</li>
+        <li>js</li>
+        <li class="g2">js</li>
+    </ol>
+</nav>
+<ol>
+    <li class="c1 c2">
+        python
+    </li>
+    <li id="p2">
+        li2
+    </li>
+    <li class="c2">
+        js
+    </li>
+</ol>
+</body>
+</html>

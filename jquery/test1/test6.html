@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../../sources/jq/jq.js"></script>
+</head>
+<body>
+<form>
+    <label>账户</label><input>
+    <label>密码</label><input>
+</form>
+
+<script>
+$(':input').focusin(function () {
+    //this 相当于self
+    $(this).css('background-color',"red")
+});
+$(':input').focusout(function () {
+    $(this).css('background-color',"grey")
+});
+</script>
+</body>
+</html>

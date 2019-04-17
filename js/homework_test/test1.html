@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    //打印n排的星星 保证n是奇数
+    function f(n) {
+        n = n -0;
+        if(n % 2 === 0){
+            return false
+        }
+        //找出中间那一排的星星数量
+        let hr = Math.ceil(n/2);
+        //循环遍历
+        for(let i=1;i<=n;i++){
+            //空格的数量等于 hr - i的绝对值
+            //星星的数量数量等于 hr-空格数
+            let space_num = Math.abs(hr-i);
+            let star_num = hr - space_num;
+            document.write('&nbsp'.repeat(space_num));
+            document.write('*'.repeat(star_num*2-1));
+            document.write('<br>')
+        }
+    }
+    function f2(n) {
+        n = n -0;
+        if(n % 2 === 0){
+            return false
+        }
+        //找出中间那一排的星星数量
+        let hr = Math.ceil(n/2);
+        //循环遍历
+        for(let i=1;i<=n;i++){
+            //空格的数量等于 hr - i的绝对值
+            //星星的数量数量等于 hr-空格数
+            let space_num = Math.abs(hr-i);
+            let star_num = hr - space_num;
+            document.write('&nbsp'.repeat(space_num));
+
+            document.write('*');
+            if(star_num === 1){
+                document.write('<br>');
+                continue;
+            }
+            //把中间的星星掏空,就是本来有5个星星 但是现在只有有3个星星
+            document.write('&nbsp'.repeat(star_num*2-3));
+            document.write('*');
+            document.write('<br>')
+        }
+    }
+    f(7)
+</script>
+</body>
+</html>

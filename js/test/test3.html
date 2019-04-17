@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+<ul>
+    <li>test1</li>
+    <li>test1</li>
+    <li>test1</li>
+    <li>
+        <ol>
+            <li>child1</li>
+            <li>child1</li>
+            <li>child1</li>
+        </ol>
+    </li>
+</ul>
+
+<div>
+    <p>p1</p>
+    <p>p2</p>
+    <p>p3</p>
+    <p>p4</p>
+</div>
+<script>
+    //[1]
+    var ul = document.getElementsByTagName('ul')[0];
+    // //获取节点下面的子节点
+    // let li_test = ul.children;
+    let li4 = ul.lastElementChild;
+    //
+    for (let i of li4.firstElementChild.children) {
+        i.innerHTML = '修改后'
+    }
+    let div = document.getElementsByTagName('div')[0]
+    //1. children 方法是HTMLCollection类型 没有text在里面
+    //2. childNodes 方法是NodeList类型 有text在里面
+    //3. firstElementChild 获取最后一个元素
+
+</script>
+</body>
+</html>

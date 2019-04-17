@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function max_str(my_str) {
+        let tmp={};
+        for(let i of my_str){
+            if(tmp[i] !== undefined){
+                tmp[i] +=1;
+            }else{
+                tmp[i] = 1;
+            }
+        }
+        //交换 key value位置,最大的值是最后一个元素
+        let tmp2 = [];
+        for(let i in tmp){
+            tmp2[tmp[i]] = i;
+        }
+        //把最后一个元素弹出
+        return tmp2.pop();
+
+    }
+
+    let res = max_str('afjjjjjjjjjjjjjjjghdfraaaasdenas')
+
+
+</script>
+
+</body>
+</html>

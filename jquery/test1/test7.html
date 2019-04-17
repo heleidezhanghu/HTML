@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../../sources/jq/jq.js"></script>
+</head>
+<body>
+<form>
+    <label for="account">账户</label><input id="account">
+    <br>
+    <label for="pwd">密码</label><input id="pwd" type="password">
+    <br>
+    <label for="repwd">确认密码</label><input  type="password" id="repwd">
+    <br>
+
+    <label>爱好</label>
+    <label>数学</label>
+    <input type="checkbox" class="in1">
+    <label>天文</label>
+    <input type="checkbox" class="in1">
+    <label>哲学</label>
+    <input type="checkbox" class="in1">
+    <label>物理</label>
+    <input type="checkbox" class="in1">
+    <label>全选</label>
+    <input type="checkbox" id="select_all">
+    <br>
+    <button id="confirm">提交</button>
+</form>
+<script>
+    //click 第一种点上钩 第二种 取消
+    $('#select_all').click(
+        function () {
+            if ($(this).prop('checked') === true) {
+                $(":input.in1").prop('checked', true);
+            } else {
+                $(":input.in1").prop('checked', false);
+            }
+        }
+    )
+    
+    $('#confirm').click(
+        function () {
+            //input框里面的值必须使用 val()
+            var account = $('#account').val();
+            var pwd = $('#pwd').val();
+            var repwd = $('#repwd').val();
+            if(account === undefined || account === "" || account === null){
+                alert('账户不能为空');
+                return
+            }
+            if(pwd === undefined || pwd === "" || pwd === null){
+                alert('密码不能为空');
+                return
+            }
+
+            if(pwd != repwd){
+                alert('两次密码输入不一致');
+                return
+            }
+
+            alert('提交成功!');
+        }
+    )
+</script>
+</body>
+</html>

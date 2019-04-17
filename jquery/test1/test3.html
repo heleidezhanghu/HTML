@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <title></title>
+    <script src="../../sources/jq/jq.js"></script>
+    <style>
+        .content {
+            width: 300px;
+        }
+        .append{
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+<h2>通过append添加元素</h2>
+<button id="bt1">点击通过jQuery的append添加元素</button>
+<div class="content" id="div1">
+    <p>我是本来存在的 </p>
+</div>
+<script type="text/javascript">
+    // $("#bt1").css();
+    $("#bt1").on('click', function() {
+        //.append(), 内容在方法的后面，
+        //参数是将要插入的内容。prepend是在div最前面去添加元素
+        // append 是在最后去添加元素 prepend
+        //在div元素里面去添加子元素
+        $("div").prepend('<p class="append">通过append方法添加的元素</p>')
+    });
+    //before after 在元的同级上面去添加兄弟元素
+    $('div').before('<p class="append">通过append方法添加的元素</p>')
+</script>
+</body>
+</html>

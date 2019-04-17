@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表格包含表单</title>
+</head>
+<body>
+<form name="myForm" action="test.html" onsubmit="return validateForm()">
+    <table width="70%" border="1" cellpadding="10" cellspacing="0" align="center">
+        <caption>新用户注册</caption>
+        <tr><td>账号:</td><td>
+            <input type="text" name="account" oninput="validateAccount()">
+            <span id="accountSpan" style="font-size: 13px;color: red"></span>
+        </td></tr>
+
+        <tr><td>密码:</td><td>
+            <input type="password" name="pwd" oninput="validatePassword()">
+            <span id="pwdSpan" style="font-size: 13px;color: red"></span>
+        </td></tr>
+
+        <tr><td>验证密码:</td><td>
+            <input type="password" name="repwd" onblur="validatePassword()">
+            <span id="repwdSpan" style="font-size: 13px;color: red"></span>
+        </td></tr>
+
+        <tr><td>邮箱:</td><td>
+            <input id="emailId" type="text" name="email" onblur="validateEmail()">
+            <span id="emailSpan" style="font-size: 13px;color: red"></span>
+        </td></tr>
+
+        <tr><td>年龄:</td><td>
+            <input type="number" name="ageNum" min="1" max="120">
+        </td></tr>
+
+        <tr><td>性别:</td><td>
+            <input type="radio" name="gander" value="male">男
+            <input type="radio" name="gander" value="female">女
+        </td></tr>
+
+        <tr><td>爱好:</td><td>
+            <input type="checkbox" name="like" value="吃"/>吃
+            <!--checked 设置默认选中-->
+            <input type="checkbox" name="like" value="喝" checked/>喝
+            <input type="checkbox" name="like" value="不碎觉"/>不碎觉
+        </td></tr>
+
+        <tr><td>城市:</td><td>
+            <select>
+                <option name="city" value="chengdu">成都</option>
+                <option name="city" value="chongqin">重庆</option>
+                <!--selected 设置默认显示-->
+                <option name="city" value="shanghai" selected>上海</option>
+            </select>
+        </td></tr>
+
+        <!--tr><td>头像:</td><td>
+            <input type="file" name="icon"/>
+        </td></tr-->
+
+        <tr><td>说明:</td><td>
+            <textarea rows="4" cols="50">随便说点</textarea>
+        </td></tr>
+
+        <tr><td colspan="2" align="center">
+            <input type="submit">
+            <input type="reset">
+        </td></tr>
+    </table>
+</form>
+
+<script src="form_vali.js"></script>
+
+</body>
+</html>

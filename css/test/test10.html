@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        fieldset,legend{
+            border: 1px solid #31e8ff;
+        }
+
+        fieldset{
+            width: 400px;
+        }
+
+        .di1{
+            /*border: 1px solid red;*/
+
+            margin-left: 60px;
+            margin-bottom: 5px;
+
+        }
+
+        .di2{
+            /*border: 1px solid red;*/
+
+            margin-left: 20px;
+            margin-bottom: 5px;
+        }
+
+        label{
+            display: inline-block;
+            width: 100px;
+            text-align: right;
+            margin-right: 10px;
+            /*border: 1px solid grey;*/
+        }
+
+        #pwd{
+            width: 100px;
+        }
+
+        input{
+            border-top: 2px solid grey;
+            border-left: 2px solid grey;
+            /*border: 1px solid blue;*/
+            margin-left: 0;
+        }
+
+        a{
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+<form>
+
+    <fieldset>
+        <legend>
+            用户登录
+        </legend>
+
+        <div class="di1">
+        <label>用户名:</label><input style="margin-left: 4px;">
+        </div>
+        <div class="di1">
+        <label>密码:</label><input id="pwd" style="margin: 4px;">
+        </div>
+        <div class="di1">
+            <label>
+            <input type="checkbox"><a href="#">记住我</a>
+            </label>
+            <!--<input value="登录" type="text" style="margin: 0;">-->
+            <button style="margin: 0;">登录</button >
+        </div>
+        <a href="#">你忘记密码?</a>
+    </fieldset>
+</form>
+
+</body>
+</html>

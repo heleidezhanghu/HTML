@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>导航条</title>
+    <style type="text/css">
+        /*先取消列表的默认属性*/
+        ul{
+            overflow: hidden;
+            list-style-type: none;
+            background-color: black;
+            padding: 0;
+            margin: 0;
+        }
+
+        /*将列表标签排成一行*/
+        li{
+            float: left;
+        }
+
+        /*取消连接标签的默认属性*/
+        a{
+            display: block;
+            text-decoration: none;
+            color: white;
+            /*width: 70px;*/
+            padding: 14px 12px;
+            text-align: center;
+        }
+
+        .input{
+            float: right;
+            margin: 7px;
+        }
+
+        input{
+            height: 28px;
+        }
+
+        a:hover,.active{
+            background-color: gray;
+            color: blue;
+        }
+
+    </style>
+</head>
+<body>
+<!--导航栏-->
+<div>
+    <div style="width: 1024px; margin: auto;">
+        <ul>
+            <li><a href="#home">首页</a></li>
+            <li><a class="active" href="#phone">手机数码</a></li>
+            <li><a href="#cumputer">电脑办公</a></li>
+            <li><a href="#h">家用电器</a></li>
+            <li><a href="#vadio">图书音像</a></li>
+            <li><a href="#game">游戏娱乐</a></li>
+            <!--搜索表单-->
+            <div class="input">
+                <form action="01-css初体验.html" method="get">
+                    <input type="text" name="search" placeholder="Search" />
+                    <input type="submit" value="搜索"/>
+                </form>
+            </div>
+        </ul>
+
+    </div>
+</div>
+</body>
+</html>

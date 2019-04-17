@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+
+    <style>
+
+
+
+        .wrap {
+            width:  800px;
+            height: 300px;
+            border: 1px solid #808080;
+            border-radius: 5px;
+
+            /*flex：弹性布局*/
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: center;
+            align-items: center;
+        }
+        .box {
+            width: 100px;
+            height: 60px;
+
+            display: inline-block;
+            margin: 0 10px;
+
+            color: #fff;
+            letter-spacing: 2px;
+            text-align: center;
+            line-height: 60px;
+            background-color: orange;
+            border: 5px none purple;
+        }
+
+        .none   { border-style: none;   }
+        .solid  { border-style: solid;  }
+        .dotted { border-style: dotted; }
+        .dashed { border-style: dashed; }
+        .double { border-style: double; }
+        .groove { border-style: groove; }
+        .ridge  { border-style: ridge;  }
+        .inset  { border-style: inset;  }
+        .outset { border-style: outset; }
+    </style>
+</head>
+<body>
+<div class="wrap">
+    <section class="box none">none</section>
+    <section class="box solid">solid</section>
+    <section class="box dotted">dotted</section>
+    <section class="box dashed">dashed</section>
+    <section class="box double">double</section>
+    <section class="box groove">groove</section>
+    <section class="box ridge">ridge</section>
+    <section class="box inset">inset</section>
+    <section class="box outset">outset</section>
+</div>
+
+</body>
+</html>

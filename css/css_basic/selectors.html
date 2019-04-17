@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style type="text/css">
+
+
+        /*.t1>.box + p {*/
+            /*!*左边距*!*/
+            /*margin-left: 200px;*/
+        /*}*/
+
+        /*.t2>.box ~ p {*/
+            /*!*左边距*!*/
+            /*margin-left: 200px;*/
+        /*}*/
+
+
+        /*p:first-letter {*/
+            /*border: 1px solid #808080;*/
+            /*!**/
+            /*border-radius： 向元素添加圆角边框：*/
+            /**!*/
+            /*border-radius: 5px;*/
+            /*padding: 5px 10px;*/
+            /*font-size: 30px;*/
+            /*!**/
+            /*text-shadow: 文本的阴影效果*/
+            /**!*/
+            /*text-shadow: 2px 2px 3px #000;*/
+            /*margin: 10px;*/
+        /*}*/
+
+
+        /*p {*/
+            /*letter-spacing: 5px;*/
+            /*font-size: 25px;*/
+            /*color: #ff4500;*/
+            /*text-shadow: 1px 1px 2px #000;*/
+            /*line-height: 260px;*/
+            /*font-family: "Andale Mono";*/
+        /*}*/
+        /*p:before {*/
+            /*!*插入内容，这里以插入图片为例*!*/
+            /*content: 'test11';*/
+
+            /*position: relative;*/
+            /*top: 20px;*/
+        /*}*/
+
+            /*section>p{*/
+                /*background-color: black;*/
+            /*}*/
+
+        /*a{*/
+            /*display: block;*/
+        /*}*/
+
+        /*#a1:hover{*/
+
+            /*background-color: red;*/
+        /*}*/
+
+        /*#a2:active{*/
+            /*background-color: green;*/
+        /*}*/
+
+        /*div ~ p{*/
+            /*background-color: blue;*/
+        /*}*/
+        [onclick]{
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+<p>蜡笔小新</p>
+
+<section class="t1">
+    <div class="box">+</div>
+    <p onclick="">有点儿意思</p>
+    <p>可以很强势</p>
+    <div>
+        <p onclick="">可以很强势</p>
+    </div>
+
+    <a href="#" id="a1">hover测试</a>
+    <a href="#" id="a2">active测试</a>
+
+</section>
+
+<!--&lt;!&ndash; ~ &ndash;&gt;-->
+<!--<section class="t2">-->
+    <!--<div class="box">~</div>-->
+    <!--<p>有点儿意思</p>-->
+    <!--<p>可以很强势</p>-->
+<!--</section>-->
+
+
+<p>天将降大任于斯人也，必先苦其心志，劳其筋骨，饿其体肤，空乏其身,行拂乱其所为也，所以动心忍性，增益其所不能。 </p>
+</body>
+</html>

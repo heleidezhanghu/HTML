@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        ul {
+            list-style: none;
+        }
+
+        a {
+            display: block;
+            background-color: #50d4a3;
+            height: 40px;
+            width: 80px;
+            border: 1px solid;
+        }
+
+        body > ul ul {
+            display: none;
+        }
+
+    </style>
+</head>
+<body>
+<ul>
+    <li onmouseover="show(this)" onmouseleave="hid(this)">
+        <a href="#">章节</a>
+        <ul>
+            <li>
+                <a href="#">python</a>
+            </li>
+            <li>
+                <a href="#">go</a>
+            </li>
+        </ul>
+    </li>
+    <li>
+        <a href="#">问答</a>
+    </li>
+    <li>
+        <a href="#">笔记</a>
+    </li>
+    <li>
+        <a href="#">提问</a>
+    </li>
+</ul>
+
+<script>
+    function show(li) {
+        //获取子元素
+        let childs = li.childNodes;
+        for(i of childs){
+
+            if(i.nodeName === 'UL'){
+                i.style.display='block'
+            }
+
+        }
+    }
+
+    function hid(li) {
+        //获取ul元素
+        let childs = li.childNodes;
+        for(i of childs){
+            if(i.nodeName === 'UL'){
+                i.style.display='none'
+            }
+
+        }
+    }
+
+</script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="../../sources/jq/jq.js"></script>
+    <title>Title</title>
+</head>
+<body>
+<h2>.focusin()方法</h2>
+<div class="left">
+    <div class="aaron">
+        点击聚焦：<input type="text" />
+    </div>
+</div>
+<div class="right">
+    <div class="aaron1">
+        点击聚焦并传递参数：<input type="text" id="input1" />
+    </div>
+</div>
+
+<script>
+    $(":input").focusin(function() {
+        $(this).css('border','2px solid red');
+        $(this).attr('value','test');
+    });
+    $(":input").focusout(function() {
+        $(this).css('border','1px solid')
+    })
+
+</script>
+</body>
+</html>
